@@ -1,7 +1,15 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [174] using StatReload
-INFO:     Started server process [176]
+INFO:     Started reloader process [216] using StatReload
+INFO:     Started server process [218]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:52930 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:47538 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:50460 - "GET /api/coach/messages?session_id=1762421171330-55i4y1 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50470 - "GET /api/insights HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50478 - "GET /api/habits HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50488 - "GET /api/tasks HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50460 - "GET /api/coach/messages?session_id=1762421171330-55i4y1 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50470 - "GET /api/insights HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50478 - "GET /api/habits HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:50488 - "GET /api/tasks HTTP/1.1" 404 Not Found
